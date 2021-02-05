@@ -42,14 +42,10 @@ class Router
     {
         // Getting query string
         $uri = $this->getURI();
-        // echo '<pre>';
         // Checking query with existing routes (routes.php)
         foreach ($this->routes as $uriPattern => $path) {
 
             // Matching $uriPattern and $uri
-            // echo $uri . ' - ';
-            // echo $uriPattern . ' - ';
-            // echo $path . PHP_EOL;
             if (preg_match("~$uriPattern~", $uri)) {
 
                 // Getting internal route with pattern

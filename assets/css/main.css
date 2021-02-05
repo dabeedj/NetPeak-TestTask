@@ -1,0 +1,42 @@
+﻿
+/*************************
+*******Typography******
+**************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100&subset=latin,cyrillic-ext,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background:;
+    position: relative;
+    font-weight:400px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    min-height: 100%;
+}
+
+* html .page-wrapper {
+    height: 100%;
+}
+
+th a {
+	color: #fff;
+	display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+th a:hover {
+	color: #fff;
+	text-shadow: 0 0 5px #fff;
+	text-decoration: none;
+}
